@@ -1,0 +1,51 @@
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+
+
+body { 
+  background: url(../img/background.png) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  color: white;
+}
+body a {
+	color: #bbbc33 ;
+}
+
+.footer {
+	text-align: center;
+	background-color: white;
+	height: 100px;
+	color: #bf3628;
+	padding: 40px;
+
+	bottom: 0%;
+	width: 100%;
+}
+
+#tour-dates {
+	overflow: auto;
+	margin-top: 20px;
+	margin-bottom: 100px;
+}
+
+.sponsors {
+
+}
+.sponsors-wrapper {
+	margin-bottom: 40px;
+	margin-top: 60px;
+}
+
+
+
+
+
+
+
