@@ -42,7 +42,22 @@ body a {
 	margin-bottom: 40px;
 	margin-top: 60px;
 }
-
+.social {
+	text-align: center;
+	margin-bottom: 40px;
+}
+.social a {
+	color: white;
+	text-decoration: none;
+}
+.social i {
+	font-size: 30px;
+	padding: 5px;
+	transition: all 0.3s ease;
+}
+.social i:hover {
+	opacity: .5;
+}
 
 
 
