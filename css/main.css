@@ -24,7 +24,7 @@ body a:hover {
 
 .footer {
 	text-align: center;
-	background-color: white;
+	background-color: rgba(255, 255, 255, .9);
 	height: 100px;
 	color: #bf3628;
 	padding: 40px;
@@ -38,8 +38,12 @@ body a:hover {
 	margin-bottom: 70px;
 }
 
-.sponsors {
-
+.sponsors a {
+	text-decoration: none;
+	transition: all 0.3s ease;
+}
+.sponsors a:hover {
+	opacity: .5;
 }
 .sponsors-wrapper {
 	margin-bottom: 60px;
@@ -63,9 +67,24 @@ body a:hover {
 	color: white;
 	opacity: .5;
 }
+.player {
+	margin-bottom: 60px;
+}
 
-
-
-
+@media(max-width:767px) {
+	.sponsors {
+		text-align: center;
+		margin-bottom: 20px;
+	}
+	.sponsors img {
+		margin: 3px;
+	}
+	.sponsor-link {
+		max-width: 70px;
+	}
+	.sound-rink {
+		max-width: 140px;
+	}
+}
 
 
